@@ -1,0 +1,124 @@
+body {
+  letter-spacing: 0.02em;
+  background: url("../images/backgrounds/b1.png");
+}
+.page-header {
+  margin-top: 0 !important;
+}
+.container-fluid {
+  padding: 0;
+}
+.btn {
+  text-transform: capitalize;
+ /* border-radius: 0 !important;*/
+}
+.panel {
+  border-radius: 0 !important;
+}
+.list-group a.list-group-item {
+  border-radius: 0px !important;
+}
+
+.err-ul{
+  padding-left: 15px;
+}
+.err-ul li {
+  margin-bottom: 6px;
+}
+
+/* add a faculty mark and batch year in text field */
+.reg-number-input {
+  color: #777;
+  position: absolute;
+  top: 7px;
+  left: 27px;
+}
+
+/*transitions*/
+.err-box {
+  display: block;
+  -webkit-transition: display 3s;
+  transition: display 3s;
+}
+
+.err-box {
+  display: none;
+}
+
+/*login panel head*/
+.login-ph {
+  background-color: #337ab7 !important;
+  color: #fff !important;
+}
+
+.footer, .navbar-inverse {
+  background-color: #212a34;
+}
+.footer-head, .footer-body, .footer-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer-head {
+  color: #fff;
+  border-bottom: solid 1px #17232c;
+}
+.ft-heading {
+  color: #999999;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+.ft-item > a {
+  display: block;
+  color: #fff;
+}
+.footer-footer {
+  background-color: #19212a;
+  color: #fff;
+}
+.ft-ul {
+  list-style-type: none;
+  padding: 0;
+}
+.ft-ul li {
+  display: inline-block;
+}
+
+/* panels in about page */
+.about-panel {
+  
+}
+.about-panel .panel-heading {
+  padding: 0;
+  height: 170px;
+  overflow: hidden;
+}
+.about-panel .panel-heading img {
+  width: 100%;
+}
+
+/* delete batch model header */
+.del-header {
+  background: rgb(233, 30, 99);
+  color: #fff;
+}
+/* add batch model header */
+.add-header {
+  background: rgb(15, 157, 88);
+  color: #fff;
+}
+
+/* snippest from bootstrap-4 */
+@media (min-width: 544px) {
+  .card-columns {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+    -webkit-column-gap: 1.25rem;
+       -moz-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+  }
+  .card-columns .panel {
+    display: inline-block;
+    width: 100%;
+  }
+}
